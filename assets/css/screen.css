@@ -465,11 +465,12 @@ section.content footer.global {
 		section.content {
 			padding: 0 25px;
 			margin: 0 auto;
-			margin-top: 60px;
+			margin-top: 60px !important;
 		}
 
 		.content {
 			padding: 0px;
+
 		}
 
 }
