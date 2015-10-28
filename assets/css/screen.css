@@ -417,6 +417,18 @@ section.content footer.global {
 		.intro {
 			margin-top: 44px;
 			margin-left:0 !important;
+			padding: 25px !important;
+		}
+
+		.intro input {
+			width: 100%;
+			text-align: center;
+		}
+
+		.clear {
+			display: block;
+			width: 100%;
+			margin-top: -25px;
 		}
 
 		section.content {
