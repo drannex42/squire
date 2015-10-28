@@ -1,0 +1,463 @@
+@import url(normalize.css);
+
+html { font-family:Lato, Arial, sans-serif; font-size:12px;}
+
+/*
+	Header
+*/
+
+header.main {
+	float: left;
+	color: rgb(255, 255, 255);
+	z-index: 100;
+	width: 300px;
+	height: 100%;
+	top: 0px;
+	position: fixed;
+	left: 0px;
+	padding: 40px;
+	background: #2B3034 none repeat scroll 0% 0%;
+}
+
+div.header-cover {
+	width: 300px;
+	top: 0px;
+	bottom: 0px;
+	color: #FFF;
+	background: #2B3034 none repeat scroll 0% 0%;
+	position: fixed;
+	padding: 40px;
+	z-index: 2;
+}
+
+header.main div.wrap {
+	width: 300px;
+	z-index: 100;
+}
+
+header h1 {
+	font-size: 13px;
+}
+
+header.main h1 a {
+	color:#fff;
+	font-size:2.2em;
+	text-decoration:none;
+}
+
+header.main p {
+	margin-top:10px;
+	color:rgba(255,255,255,0.5);
+	line-height:1.5;
+	font-size:1.1em;
+}
+
+header.main div.logo {
+	margin-bottom:15px;
+}
+
+header.main div.logo img {
+	border-radius:50%;
+	background:#fff;
+	width:80px;
+	height:80px;
+	padding:5px;
+}
+
+.links {
+	margin-top: 25px;
+	border-left: 5px solid #0C7AD2;
+	width: 300px;
+	z-index: 100;
+	margin-left: -40px;
+	padding-left: 35px;
+	margin-bottom: 10px;
+}
+
+.links a {
+    display: block;
+    padding: 5px 0px !important;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.links .ion {
+	padding-right: 5px;
+	font-size: 25px;
+}
+
+header .companies {
+}
+
+header .companies h1 {
+	font-size:18px;
+	padding: 15px 0px;
+}
+header .companies a {
+	display: block;
+	padding: 5px 0px !important;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+header .companies a span {
+	color: #888;
+}
+
+header .email {
+	background: white none repeat scroll 0% 0%;
+	padding: 10px;
+	color: rgb(85, 85, 85);
+	text-align: center;
+	font-weight: 900;
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+}
+
+header .email .ion {
+	font-size: 25px;
+	vertical-align: middle;
+	padding-right: 4px;
+}
+
+.intro {
+	background: #E8F4FE none repeat scroll 0% 0%;
+	padding: 40px 70px;
+	font-size: 21px;
+	line-height: 36px;
+	margin-left: 370px;
+	padding-bottom: 20px;
+}
+
+.intro p {
+	max-width: 700px;
+}
+
+.intro a {
+    color: #0C7AD2;
+    text-decoration: none;
+	}
+
+	.intro input {
+		display: inline-block;
+		border: 1px solid rgb(238, 238, 238);
+		font-family: inherit;
+		font-size: 18px;
+		padding: 8px;
+	}
+
+/*
+	Content area
+*/
+
+.content {
+	padding: 107px 70px 70px;
+	max-width: 900px;
+	padding-top: 40px;
+}
+
+section.content {
+	margin-left: 300px;
+	padding: 0px 70px 70px;
+}
+
+p {
+	color: #555;
+	margin-bottom: 30px;
+	font-family: "Lato",sans-serif !important;
+}
+
+
+/*
+	Post content
+*/
+
+section.content article {
+	font-size:1.3em;
+}
+
+section.content article  a {
+	color:#25a1db;
+	text-decoration:none;
+	border-bottom:1px solid #c1dbef;
+}
+
+section.content article p.meta {
+	color:#999;
+	font-size:0.9em;
+	margin-bottom:5px;
+}
+
+section.content article h1 {
+	font-size:2.8em;
+}
+
+section.content article section.post-content {
+	margin:15px 0;
+	line-height:1.7;
+}
+
+section.content article blockquote {
+	border-left: 5px solid #000;
+	margin-left: 25px;
+	padding-left:25px;
+}
+
+section.content article section.post-content p,
+section.content article section.post-content pre,
+section.content article section.post-content h1,
+section.content article section.post-content h2,
+section.content article section.post-content h3,
+section.content article section.post-content h4,
+section.content article section.post-content h5 {
+	margin:18px 0;
+}
+
+section.content article section.post-content h1,
+section.content article section.post-content h2,
+section.content article section.post-content h3,
+section.content article section.post-content h4,
+section.content article section.post-content h5 {
+	font-weight:normal;
+}
+
+section.content article section.post-content h1,
+section.content article section.post-content h2,
+section.content article section.post-content h3 {
+	font-size:2.0em;
+}
+
+section.content article section.post-content h4 {
+	font-size:1.7em;
+}
+
+section.content article section.post-content h5 {
+	font-size:1.2em;
+}
+
+section.content article section.post-content pre {
+	background:#f7f7f7;
+	font-size:0.9em;
+	padding:10px;
+	border:1px solid #ddd;
+}
+
+section.content article section.post-content ul li {
+	margin-left:35px;
+	list-style:square;
+}
+
+/*
+	Post list
+*/
+section.content article.home.post {
+	margin-bottom:50px;
+}
+
+section.content article.home.post h2 {
+	margin-bottom:5px;
+}
+
+section.content article.home.post h2 a {
+	font-size:2.0em;
+	color:#000;
+	text-decoration:none;
+	border:0;
+}
+
+section.content article.home.post h2 a:hover {
+	color:#25a1db;
+}
+
+section.content article.home.post section.post-excerpt {
+	line-height:1.8;
+	font-size:0.95em;
+}
+
+
+/*
+	Pagination
+*/
+nav.pagination {
+	border-top:1px solid #efefef;
+	padding-top:50px;
+	margin-top:60px;
+	text-align:center;
+	color:#999;
+}
+
+/*
+	Post footer
+*/
+
+section.content article.post footer.post {
+	border:1px solid #ddd;
+	margin-top:50px;
+	overflow:hidden;
+	background:#f7f7f7;
+	padding:25px;
+}
+
+section.content article.post footer.post section.author {
+	width:70%;
+	float:left;
+	line-height:1.8;
+	font-size:0.9em;
+}
+
+section.content article.post footer.post section.author p {
+	color:#999;
+}
+
+section.content article.post footer.post section.share {
+	width:25%;
+	float:right;
+}
+
+section.content article.post footer.post section.share h4 {
+	margin-bottom:15px;
+}
+
+section.content article.post footer.post section.share a {
+	width:20px;
+	height:20px;
+	background:url('../img/twitter.svg') no-repeat 50%;
+	opacity:0.7;
+	border:0;
+	background-size:20px;
+	display:inline-block;
+	text-indent:-40000px;
+	margin-right:15px;
+}
+
+section.content article.post footer.post section.share a.twitter {
+	background-image:url('../img/twitter.svg');
+}
+
+section.content article.post footer.post section.share a.facebook {
+	background-image:url('../img/facebook.svg');
+}
+
+section.content article.post footer.post section.share a.google {
+	background-image:url('../img/google.svg');
+}
+
+
+/*
+	Page footer
+*/
+section.content footer.global {
+	border-top:1px solid #efefef;
+	padding-top:25px;
+	margin-top:25px;
+	margin-bottom:50px;
+	font-size:1.1em;
+	color:#bbb;
+	line-height:1.5;
+}
+
+
+.mobile-menu {
+	display: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+	background: #2B3034 none repeat scroll 0% 0%;
+	height: 50px;
+	color: #FFF;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-size: 40px;
+	z-index:9999;
+}
+
+.mobile-menu .ion-grid {
+    position: fixed;
+    top: 5px;
+		left:10px;
+		display: block;
+		z-index: 999999999;
+}
+
+.mobile-menu .ion-social-twitter {
+	position: fixed;
+	top: 5px;
+	right: 10px;
+	display: block;
+}
+
+
+.mobile-menu h1 {
+	text-align: center;
+	vertical-align: bottom;
+	display: inline-block;
+	font-size: 25px;
+	position: fixed;
+	top: 10px;
+	width: 100%;
+	left: 0;
+}
+
+@media screen and ( max-height: 800px ){
+    header {
+			position: absolute !important;
+		}
+
+}
+
+@media screen and ( max-width: 920px ){
+    header, .header-cover {
+			display:none;
+		}
+
+		.intro {
+			margin-top: 44px;
+			margin-left:0 !important;
+		}
+
+		section.content {
+			margin-top: 0 !important;
+		}
+
+		header {
+			position: fixed !important;
+	    width: 100% !important;
+	    top: 0px;
+	    left: 0px;
+	    background: rgba(43, 48, 52, 0.95) none repeat scroll 0% 0% !important;
+	    display: none;
+	    overflow: scroll !important;
+	    padding-bottom: 50px !important;
+	}
+
+		header h1 {
+			display: none;
+		}
+
+		header .title {
+			display: none;
+		}
+
+		header .companies h1 {
+			display: block;
+		}
+
+		.mobile-menu {
+			display: block;
+		}
+
+		section.content {
+			padding: 0 25px;
+			margin: 0 auto;
+			margin-top: 60px;
+		}
+
+		.content {
+			padding: 0px;
+		}
+
+}

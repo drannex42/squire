@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+    <link rel="shortcut icon" href="{{asset "/favicon.ico"}}">
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+      {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+  <div class="mobile-menu">
+    <i style="" class="ion ion-grid"></i>
+    <h1 style="">Macleod Sawyer</h1>
+  </div>
+  <div class='header-cover'></div>
+
+  <header class='main' >
+    <div class='wrap'>
+      <h1><a href='/'>{{@blog.title}}</a></h1>
+      <p class='title'>{{@blog.description}}</p>
+
+      <div class="links">
+        <a href="/"><i class="ion ion-home"></i> Home </i></a>
+        <a href="/about"><i class="ion ion-coffee"></i> Who Am I? </i></a>
+        <a href="/portfolio"><i class="ion ion-flash"></i> What Have I Done? </i></a>
+        <a href="/subscribe"><i class="ion ion-social-rss"></i> Subscribe </i></a>
+      </div>
+
+      <div class="companies">
+        <h1> My Projects</h1>
+        <a href="http://ideadrops.xyz/">IdeaDrops - <span>We are an independent public benefit development agency that strives to make the world a better place.</span> </a>
+        <a href="https://charitydrops.org/">CharityDrops - <span>A new and better way to donate to the causes that you love and cherish.</span> </a>
+        <a href="https://readless.co/">Read|Less - <span>A weekly podcast talking about tech, news, and random shit.</span> </a>
+
+        <h1>Connect with me</h1>
+        <a href="https://twitter.com/mxsawyer" class="twitter-follow-button" data-show-count="true" data-size="large" >Follow @mxsawyer</a>
+        <!-- Place this tag where you want the button to render. -->
+        <br>
+        <br>
+        <a aria-label="Follow @macleodsawyer on GitHub" data-count-aria-label="# followers on GitHub" data-count-api="/users/macleodsawyer#followers" data-count-href="/macleodsawyer/followers" data-style="mega" href="https://github.com/macleodsawyer" class="github-button">Follow @macleodsawyer</a>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>      </div>
+        <br>
+        <a class="email" href="mailto:macleod@macleodsawyer.com">
+          <i class="ion ion-email" style=""></i> macleod@macleodsawyer.com
+        </a>
+
+  </header>
+
+
+    {{{body}}}
+
+<script>
+$(document).ready(function() {
+       $('.ion-grid').click(function() {
+               $('.main').toggle(150);
+       });
+   });
+</script>
+
+  <!-- Place this tag right after the last button or just before your close body tag. -->
+  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>
