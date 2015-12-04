@@ -215,6 +215,10 @@ section.content article section.post-content h5 {
 	margin:18px 0;
 }
 
+section.content article section.post-content p {
+	font-size:20px;
+}
+
 section.content article section.post-content h1,
 section.content article section.post-content h2,
 section.content article section.post-content h3,
