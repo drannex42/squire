@@ -16,7 +16,9 @@ header.main {
 	position: fixed;
 	left: 0px;
 	padding: 40px;
-	background: #2B3034 none repeat scroll 0% 0%;
+	background: #75aa80;
+	font-family: "Open Sans";
+	margin-top: 25px;
 }
 
 div.header-cover {
@@ -24,7 +26,7 @@ div.header-cover {
 	top: 0px;
 	bottom: 0px;
 	color: #FFF;
-	background: #2B3034 none repeat scroll 0% 0%;
+	background: #75aa80;
 	position: fixed;
 	padding: 40px;
 	z-index: 2;
@@ -49,7 +51,7 @@ header.main p {
 	margin-top:10px;
 	color:rgba(255,255,255,0.5);
 	line-height:1.5;
-	font-size:1.1em;
+	font-size:2em;
 }
 
 header.main div.logo {
@@ -66,18 +68,12 @@ header.main div.logo img {
 
 .links {
 	margin-top: 25px;
-	border-left: 5px solid #0C7AD2;
-	width: 300px;
-	z-index: 100;
-	margin-left: -40px;
-	padding-left: 35px;
-	margin-bottom: 10px;
 }
 
 .links a {
     display: block;
     padding: 5px 0px !important;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
@@ -189,15 +185,18 @@ section.content article p.meta {
 	color:#999;
 	font-size:0.9em;
 	margin-bottom:5px;
+	margin-top: 15px;
 }
 
 section.content article h1 {
 	font-size:2.8em;
+	margin-bottom:10px;
 }
 
 section.content article section.post-content {
 	margin:15px 0;
 	line-height:1.7;
+	max-width: 650px;
 }
 
 section.content article blockquote {
@@ -403,9 +402,6 @@ section.content footer.global {
 }
 
 @media screen and ( max-height: 800px ){
-    header {
-			position: absolute !important;
-		}
 
 }
 
