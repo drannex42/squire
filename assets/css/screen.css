@@ -405,9 +405,6 @@ section.content footer.global {
 	left: 0;
 }
 
-@media screen and ( max-height: 800px ){
-
-}
 
 @media screen and ( max-width: 920px ){
     header, .header-cover {
